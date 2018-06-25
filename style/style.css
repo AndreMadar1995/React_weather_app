@@ -1,0 +1,18 @@
+svg{
+  height:150px;
+  width:100%;
+}
+td, th{
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+.input-group{
+  margin: 20px 20px 0px 0px;
+}
+
+/* find first td and first td and div child*/
+td:first-of-type, td:first-of-type > div{
+  height:200px;
+  width: 250px;
+}
